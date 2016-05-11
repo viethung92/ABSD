@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <!-- Bootstrap CSS  -->
-<link rel="stylesheet" href="asset/css/bootstrap.min.css"
+<link rel="stylesheet" href="css/bootstrap.min.css"
 	type="text/css" media="screen">
 
 <!-- Font Awesome CSS -->
@@ -56,7 +56,7 @@
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="js/jquery.migrate.js"></script>
 <script type="text/javascript" src="js/modernizrr.js"></script>
-<script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.fitvids.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
