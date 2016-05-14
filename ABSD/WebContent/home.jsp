@@ -249,19 +249,58 @@
 								<li><a href="left-sidebar.html">Left Sidebar</a></li>
 								<li><a href="404.html">404 Page</a></li>
 							</ul> --></li>
-						<li><a href="#">Examples</a>
-							<ul class="dropdown">
-<!-- 								<li><a href="tabs.html">Tabs</a></li>
-								<li><a href="buttons.html">Buttons</a></li>
-								<li><a href="action-box.html">Action Box</a></li>
-								<li><a href="testimonials.html">Testimonials</a></li>
-								<li><a href="latest-posts.html">Latest Posts</a></li>
-								<li><a href="latest-projects.html">Latest Projects</a></li>
-								<li><a href="pricing.html">Pricing Tables</a></li>
-								<li><a href="animated-graphs.html">Animated Graphs</a></li>
-								<li><a href="accordion-toggles.html">Accordion &
-										Toggles</a></li> -->
-							</ul></li>
+						<li class="has-submenu"><a href="#">Examples</a>
+								<div class="mainmenu-submenu">
+								<div class="mainmenu-submenu-inner">
+									<div>
+										<h4>HTML and CSS</h4>
+										<ul>
+											<li><a href="index.html">Homepage (Sample 1)</a></li>
+											<li><a href="page-homepage-sample.html">Homepage (Sample 2)</a></li>
+										</ul>
+										<h4>Javascript</h4>
+										<ul>
+											<li><a href="page-services-1-column.html">Services/Features (Rows)</a></li>
+											<li><a href="page-services-3-columns.html">Services/Features (3 Columns)</a></li>
+											<li><a href="page-services-4-columns.html">Services/Features (4 Columns)</a></li>
+											<li><a href="page-pricing.html">Pricing Table</a></li>
+										</ul>
+										<h4>JQuery</h4>
+										<ul>
+											<li><a href="page-team.html">Our Team</a></li>
+											<li><a href="page-vacancies.html">Open Vacancies (List)</a></li>
+											<li><a href="page-job-details.html">Open Vacancies (Job Details)</a></li>
+										</ul>
+									</div>
+									<div>
+										<h4>Java Tutorial</h4>
+										<ul>
+											<li><a href="page-portfolio-2-columns-1.html">Portfolio (2 Columns, Option 1)</a></li>
+											<li><a href="page-portfolio-2-columns-2.html">Portfolio (2 Columns, Option 2)</a></li>
+											<li><a href="page-portfolio-3-columns-1.html">Portfolio (3 Columns, Option 1)</a></li>
+											<li><a href="page-portfolio-3-columns-2.html">Portfolio (3 Columns, Option 2)</a></li>
+											<li><a href="page-portfolio-item.html">Portfolio Item (Project) Description</a></li>
+										</ul>
+										<h4>J2EE</h4>
+										<ul>
+											<li><a href="page-about-us.html">About Us</a></li>
+											<li><a href="page-contact-us.html">Contact Us</a></li>
+											<li><a href="page-faq.html">Frequently Asked Questions</a></li>
+											<li><a href="page-testimonials-clients.html">Testimonials & Clients</a></li>
+										</ul>
+									</div>
+									<div>
+										<h4>SQL</h4>
+										<ul>
+											<li><a href="page-products-3-columns.html">Products listing (3 Columns)</a></li>
+											<li><a href="page-products-4-columns.html">Products listing (4 Columns)</a></li>
+											<li><a href="page-products-slider.html">Products Slider</a></li>
+											<li><a href="page-product-details.html">Product Details</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							</li>
 						<li><a href="portfolio-3.html">Portfolio</a>
 							<ul class="dropdown">
 <!-- 								<li><a href="portfolio-2.html">2 Columns</a></li>
