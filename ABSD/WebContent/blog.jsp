@@ -51,6 +51,8 @@
 <link rel="stylesheet" type="text/css" href="css/colors/yellow.css"
 	title="yellow" media="screen" />
 
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
 
 <!-- Margo JS  -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
@@ -151,10 +153,12 @@
 					</div>
 					<!-- End Search -->
 					<!-- Start Navigation List -->
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="index.html">Home</a>
-							<ul class="dropdown">
-								<li><a href="index.html">Home Main Version</a></li>
+<nav id="mainmenu" class="mainmenu">
+					<ul class="navbar-right">
+						<li><a class="active" href="home.jsp">Home</a>
+<!-- 							<ul class="dropdown">
+								<li><a class="active" href="home.jsp">Home Main
+										Version</a></li>
 								<li><a href="index-01.html">Home Version 1</a></li>
 								<li><a href="index-02.html">Home Version 2</a></li>
 								<li><a href="index-03.html">Home Version 3</a></li>
@@ -162,44 +166,144 @@
 								<li><a href="index-05.html">Home Version 5</a></li>
 								<li><a href="index-06.html">Home Version 6</a></li>
 								<li><a href="index-07.html">Home Version 7</a></li>
-							</ul></li>
-						<li><a href="about.html">Pages</a>
-							<ul class="dropdown">
+							</ul> -->
+						</li>
+						<li class="has-submenu"><a href="#">Tutorials</a>
+							<div class="mainmenu-submenu">
+								<div class="mainmenu-submenu-inner">
+									<div>
+										<h4>HTML and CSS</h4>
+										<ul>
+											<li><a href="index.html">Homepage (Sample 1)</a></li>
+											<li><a href="page-homepage-sample.html">Homepage (Sample 2)</a></li>
+										</ul>
+										<h4>Javascript</h4>
+										<ul>
+											<li><a href="page-services-1-column.html">Services/Features (Rows)</a></li>
+											<li><a href="page-services-3-columns.html">Services/Features (3 Columns)</a></li>
+											<li><a href="page-services-4-columns.html">Services/Features (4 Columns)</a></li>
+											<li><a href="page-pricing.html">Pricing Table</a></li>
+										</ul>
+										<h4>JQuery</h4>
+										<ul>
+											<li><a href="page-team.html">Our Team</a></li>
+											<li><a href="page-vacancies.html">Open Vacancies (List)</a></li>
+											<li><a href="page-job-details.html">Open Vacancies (Job Details)</a></li>
+										</ul>
+									</div>
+									<div>
+										<h4>Java Tutorial</h4>
+										<ul>
+											<li><a href="page-portfolio-2-columns-1.html">Portfolio (2 Columns, Option 1)</a></li>
+											<li><a href="page-portfolio-2-columns-2.html">Portfolio (2 Columns, Option 2)</a></li>
+											<li><a href="page-portfolio-3-columns-1.html">Portfolio (3 Columns, Option 1)</a></li>
+											<li><a href="page-portfolio-3-columns-2.html">Portfolio (3 Columns, Option 2)</a></li>
+											<li><a href="page-portfolio-item.html">Portfolio Item (Project) Description</a></li>
+										</ul>
+										<h4>J2EE</h4>
+										<ul>
+											<li><a href="page-about-us.html">About Us</a></li>
+											<li><a href="page-contact-us.html">Contact Us</a></li>
+											<li><a href="page-faq.html">Frequently Asked Questions</a></li>
+											<li><a href="page-testimonials-clients.html">Testimonials & Clients</a></li>
+											<li><a href="page-events.html">Events</a></li>
+											<li><a href="page-404.html">404 Page</a></li>
+											<li><a href="page-sitemap.html">Sitemap</a></li>
+										</ul>
+									</div>
+									<div>
+										<h4>SQL</h4>
+										<ul>
+											<li><a href="page-products-3-columns.html">Products listing (3 Columns)</a></li>
+											<li><a href="page-products-4-columns.html">Products listing (4 Columns)</a></li>
+											<li><a href="page-products-slider.html">Products Slider</a></li>
+											<li><a href="page-product-details.html">Product Details</a></li>
+										</ul>
+										<h4>Oracle</h4>
+										<ul>
+											<li><a href="page-blog-posts.html">Blog Posts (List)</a></li>
+											<li><a href="page-blog-post-right-sidebar.html">Blog Single Post (Right Sidebar)</a></li>
+											<li><a href="page-blog-post-left-sidebar.html">Blog Single Post (Left Sidebar)</a></li>
+											<li><a href="page-news.html">Latest & Featured News</a></li>
+										</ul>
+									</div>
+								</div>
+							</div> <!-- /mainmenu-submenu-inner --> <!-- /mainmenu-submenu --> <!-- 							<ul class="dropdown">
 								<li><a href="about.html">About</a></li>
 								<li><a href="services.html">Services</a></li>
 								<li><a href="right-sidebar.html">Right Sidebar</a></li>
 								<li><a href="left-sidebar.html">Left Sidebar</a></li>
 								<li><a href="404.html">404 Page</a></li>
-							</ul></li>
-						<li><a href="#">Shortcodes</a>
-							<ul class="dropdown">
-								<li><a href="tabs.html">Tabs</a></li>
-								<li><a href="buttons.html">Buttons</a></li>
-								<li><a href="action-box.html">Action Box</a></li>
-								<li><a href="testimonials.html">Testimonials</a></li>
-								<li><a href="latest-posts.html">Latest Posts</a></li>
-								<li><a href="latest-projects.html">Latest Projects</a></li>
-								<li><a href="pricing.html">Pricing Tables</a></li>
-								<li><a href="accordion-toggles.html">Accordion &
-										Toggles</a></li>
-							</ul></li>
+							</ul> --></li>
+						<li class="has-submenu"><a href="#">Examples</a>
+								<div class="mainmenu-submenu">
+								<div class="mainmenu-submenu-inner">
+									<div>
+										<h4>HTML and CSS</h4>
+										<ul>
+											<li><a href="index.html">Homepage (Sample 1)</a></li>
+											<li><a href="page-homepage-sample.html">Homepage (Sample 2)</a></li>
+										</ul>
+										<h4>Javascript</h4>
+										<ul>
+											<li><a href="page-services-1-column.html">Services/Features (Rows)</a></li>
+											<li><a href="page-services-3-columns.html">Services/Features (3 Columns)</a></li>
+											<li><a href="page-services-4-columns.html">Services/Features (4 Columns)</a></li>
+											<li><a href="page-pricing.html">Pricing Table</a></li>
+										</ul>
+										<h4>JQuery</h4>
+										<ul>
+											<li><a href="page-team.html">Our Team</a></li>
+											<li><a href="page-vacancies.html">Open Vacancies (List)</a></li>
+											<li><a href="page-job-details.html">Open Vacancies (Job Details)</a></li>
+										</ul>
+									</div>
+									<div>
+										<h4>Java Tutorial</h4>
+										<ul>
+											<li><a href="page-portfolio-2-columns-1.html">Portfolio (2 Columns, Option 1)</a></li>
+											<li><a href="page-portfolio-2-columns-2.html">Portfolio (2 Columns, Option 2)</a></li>
+											<li><a href="page-portfolio-3-columns-1.html">Portfolio (3 Columns, Option 1)</a></li>
+											<li><a href="page-portfolio-3-columns-2.html">Portfolio (3 Columns, Option 2)</a></li>
+											<li><a href="page-portfolio-item.html">Portfolio Item (Project) Description</a></li>
+										</ul>
+										<h4>J2EE</h4>
+										<ul>
+											<li><a href="page-about-us.html">About Us</a></li>
+											<li><a href="page-contact-us.html">Contact Us</a></li>
+											<li><a href="page-faq.html">Frequently Asked Questions</a></li>
+											<li><a href="page-testimonials-clients.html">Testimonials & Clients</a></li>
+										</ul>
+									</div>
+									<div>
+										<h4>SQL</h4>
+										<ul>
+											<li><a href="page-products-3-columns.html">Products listing (3 Columns)</a></li>
+											<li><a href="page-products-4-columns.html">Products listing (4 Columns)</a></li>
+											<li><a href="page-products-slider.html">Products Slider</a></li>
+											<li><a href="page-product-details.html">Product Details</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							</li>
 						<li><a href="portfolio-3.html">Portfolio</a>
 							<ul class="dropdown">
-								<li><a href="portfolio-2.html">2 Columns</a></li>
+<!-- 								<li><a href="portfolio-2.html">2 Columns</a></li>
 								<li><a href="portfolio-3.html">3 Columns</a></li>
 								<li><a href="portfolio-4.html">4 Columns</a></li>
-								<li><a href="single-project.html">Single Project</a></li>
+								<li><a href="single-project.html">Single Project</a></li> -->
 							</ul></li>
-						<li><a class="active" href="blog.html">Blog</a>
+						<li><a href="blog.jsp">Blog</a>
 							<ul class="dropdown">
-								<li><a class="active" href="blog.html">Blog - right
-										Sidebar</a></li>
+<!-- 								<li><a href="blog.jsp">Blog - right Sidebar</a></li>
 								<li><a href="blog-left-sidebar.html">Blog - Left
 										Sidebar</a></li>
-								<li><a href="single-post.html">Blog Single Post</a></li>
+								<li><a href="single-post.html">Blog Single Post</a></li> -->
 							</ul></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="contact.jsp">Contact</a></li>
 					</ul>
+					</nav>
 					<!-- End Navigation List -->
 				</div>
 			</div>
@@ -894,5 +998,58 @@
 	</div>
 
 	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+	var mainMenu = (function() {
+
+		var $listItems = $('#mainmenu > ul > li'), $menuItems = $listItems
+				.children('a'), $body = $('body'), current = -1;
+
+		function init() {
+			$menuItems.on('click', open);
+			$listItems.on('click', function(event) {
+				event.stopPropagation();
+			});
+		}
+
+		function open(event) {
+
+			var $item = $(event.currentTarget).parent('li.has-submenu'), idx = $item
+					.index();
+			if ($item.length != 0) {
+				if (current !== -1) {
+					$listItems.eq(current).removeClass('mainmenu-open');
+				}
+
+				if (current === idx) {
+					$item.removeClass('mainmenu-open');
+					current = -1;
+				} else {
+					$item.addClass('mainmenu-open');
+					current = idx;
+					$body.off('click').on('click', close);
+				}
+				return false;
+			} else
+				window.location = $item.find('a').attr('href');
+		}
+
+		function close(event) {
+			$listItems.eq(current).removeClass('mainmenu-open');
+			current = -1;
+		}
+
+		return {
+			init : init
+		};
+
+	})();
+
+	$(document).ready(function() {
+
+		//Main menu Initialization
+		mainMenu.init();
+
+	});
+</script>
 </body>
 </html>
