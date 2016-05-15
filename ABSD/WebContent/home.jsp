@@ -97,7 +97,7 @@
 						<!-- Start Contact Info -->
 						<ul class="contact-details">
 							<li><a href="#"><i class="fa fa-map-marker"></i>
-									House-54/A, London, UK</a></li>
+									Ha Noi, Viet Nam</a></li>
 							<li><a href="#"><i class="fa fa-envelope-o"></i>
 									info@yourcompany.com</a></li>
 							<li><a href="#"><i class="fa fa-phone"></i> +12 345 678
@@ -149,8 +149,8 @@
 						<i class="fa fa-bars"></i>
 					</button>
 					<!-- End Toggle Nav Link For Mobiles -->
-					<a class="navbar-brand" href="index.html"> <img alt=""
-						src="images/margo.png">
+					<a class="navbar-brand" href="home.jsp"> <img alt=""
+						src=""> <!-- images/margo.png -->
 					</a>
 				</div>
 				<div class="navbar-collapse collapse">
