@@ -188,7 +188,7 @@
 									<div>
 										<h4>HTML and CSS</h4>
 										<ul>
-											<li><a href="index.html">Homepage (Sample 1)</a></li>
+											<li><a href="content.jsp">Homepage (Sample 1)</a></li>
 											<li><a href="page-homepage-sample.html">Homepage (Sample 2)</a></li>
 										</ul>
 										<h4>Javascript</h4>
