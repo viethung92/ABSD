@@ -1,0 +1,23 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+		<action name="homeLink" method="home" class="absd.web.action.LinkAction">
+			<result name="home" type="tiles">home</result>
+		</action>
+		<action name="contentLink" method="content" class="absd.web.action.LinkAction">
+			<result name="content" type="tiles">content</result>
+		</action>
+		<action name="contactLink" method="contact" class="absd.web.action.LinkAction">
+			<result name="contact" type="tiles">contact</result>
+		</action>
+		<action name="blogLink" method="blog" class="absd.web.action.LinkAction">
+			<result name="blog" type="tiles">blog</result>
+		</action>
+	</package>
+</struts>
